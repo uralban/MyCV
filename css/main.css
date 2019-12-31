@@ -1,0 +1,63 @@
+﻿body {
+    /*font-family: "Helvetica";*/
+}
+/*-----HEADER-----*/
+header{
+    position:relative;
+    top: 20px;
+}
+    header img {
+        width: 150px;
+        height:150px;
+    }
+.myName {
+    position: relative;
+    margin-top: 20px;
+}
+.myContacts {
+    color: grey;
+    font-size: 14px;
+    margin-top: 5px;
+}
+    .myContacts ul{
+        list-style-type: none;
+    }
+.myRow {
+    background-color: black;
+    height: 1px;
+    margin-top: 10px;
+}
+/*-----SECTIONS-----*/
+.myExp, .myEdu {
+    margin: 40px 0;
+    font-size: 14px;
+}
+section p{
+    text-align: justify;
+}
+.myMargin{
+    margin-top: 20px;
+}
+.myMargin2 {
+    margin-top: 10px;
+}
+.myTopic{
+    font-weight: bold;
+}
+.eduNukLogo{
+    width: 35px;
+    float: left;
+    margin-right: 5px;
+}
+.eduFavLogo {
+    width: 35px;
+    margin-right: 5px;
+}
+.eduItvdnLogo {
+    margin: 5px 5px 0 0;
+    width: 60px;
+    float: left;
+}
+#favorit_img {
+    width: 50px;
+}
