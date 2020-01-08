@@ -61,3 +61,9 @@ section p{
 #favorit_img {
     width: 50px;
 }
+.hidden{
+    display: none;
+}
+.unhidden {
+    display: initial;
+}
