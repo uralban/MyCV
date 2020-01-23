@@ -6,6 +6,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .myMargin > .col-lg-6 > .container {
+        margin-top: 10px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -32,6 +35,9 @@
         -ms-animation: none !important;
         animation: none !important;
     }
+    .myPosition {
+        text-align: left;
+    }
     .hidden {
         display: initial;
     }
@@ -48,6 +54,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .myPosition {
+        text-align: left;
+    }
     .hidden {
         display: initial;
     }
@@ -64,6 +73,9 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+    .myPosition {
+        text-align: left;
+    }
     .hidden {
         display: initial;
     }
