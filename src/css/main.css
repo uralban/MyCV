@@ -17,7 +17,7 @@ header{
     position: relative;
     margin-top: 20px;
 }
-.myContacts {
+.myContacts, .myContacts>ul>li>a {
     color: grey;
     font-size: 14px;
     margin-top: 5px;
