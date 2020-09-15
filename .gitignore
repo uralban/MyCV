@@ -6,7 +6,7 @@ index.min.html
 /temp
 /node_modules
 package.json
-package-old.json
+package_old.json
 gulpfile.js
 package-lock.json
 
