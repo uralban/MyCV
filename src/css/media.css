@@ -1,107 +1,85 @@
-﻿/*==========  Desktop First Method  ==========*/
+﻿@media (max-width: 991px) {
+    .sidebar {
+        padding-bottom: 15px;
+    }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-    .myMargin > .col-lg-6 > .container {
-        margin-top: 10px;
+    .mainWrap {
+        padding-top: 0;
+        max-width: 100%;
     }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-    /*Disable Animation on Mobile Devices*/
-    .animated {
-        /*CSS transitions*/
-        -o-transition-property: none !important;
-        -webkit-transition-property: none !important;
-        transition-property: none !important;
-        /*CSS transforms*/
-        -ms-transform: none !important;
-        -webkit-transform: none !important;
-        transform: none !important;
-        /*CSS animations*/
-        -webkit-animation: none !important;
-        animation: none !important;
-    }
-    .myPosition {
-        text-align: left;
-    }
-    .hidden {
-        display: initial;
-    }
-    .unhidden {
-        display: none;
-    }
-    .myRow {
-        display: block;
-    }
-    .bold {
-        font-weight: bold;
+    .mainSection {
+        padding: 0 !important;
+        margin-top: 25px;
     }
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-    .myPosition {
-        text-align: left;
+@media (max-width: 667px) {    
+    .wrapSidebarContainer {
+        display: flex;
+        flex-direction: column;        
     }
-    .hidden {
-        display: initial;
-    }
-    .unhidden {
-        display: none;
-    }
-    .myRow {
-        display: block;
-    }
-    .bold {
-        font-weight: bold;
-    }
-}
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-    .myPosition {
-        text-align: left;
+    .sidebar .sidebarIcon {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 10px;
     }
-    .hidden {
-        display: initial;
+
+    .sidebar .content {
+        justify-content: center;
     }
-    .unhidden {
-        display: none;
+
+    .unvisibile {
+        display: none !important;
     }
-    .myRow {
-        display: block;
+
+    .wrapSidebarContainer.wrapSidebarSkills .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
-    .bold {
-        font-weight: bold;
+
+    .wrapSidebarContainer.wrapSidebarSkills .content table {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
-}
 
+    .wrapContainerRow {
+        flex-direction: column;
+        justify-content: center;
+    }
 
-/*==========  Mobile First Method  ==========*/
+    .mainSection .contentIcon {
+        width: 100%;
+    }
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-}
+    .wrapContentContainer {
+        width: 100%;
+    }
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-}
+    .wrapContentContainer h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-}
+    .wrapContentContainer .positionDetail {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-}
+    ul.portfolioContainer>li {
+        width: 100%;
+    }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+    figure.projectContainer img.projectImg {
+        transform: scale(1.1);
+    }
+    figure.projectContainer figcaption.projectDescription {
+        opacity: 1;
+    }
+    figure.projectContainer figcaption.projectDescription .captionContent {
+        transform: translate(0px, 0px);
+    }
 }
