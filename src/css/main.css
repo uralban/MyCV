@@ -134,6 +134,12 @@ p.workData {
     margin-left: 10px;
 }
 
+.wrapContentContainer img.geeksforlessLogo {
+    width: 100px;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
 .wrapContentContainer img.eduNukLogo, .wrapContentContainer img.eduFavLogo {
     width: 35px;
     margin-top: -3px;
@@ -145,7 +151,7 @@ p.workData {
 }
 /*---------------------------------------------------------------------------*/
 
-/*.portfolioContainer {
+/* .portfolioContainer {
     display: inline;
     width: 100%;
     padding-right: 10px;
@@ -167,7 +173,7 @@ p.workData {
 
 .projectImg {
     width: 100%;
-}*/
+} */
 
 /*---------------------------------------------------------------------------*/
 
